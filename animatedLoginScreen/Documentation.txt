@@ -1,0 +1,3 @@
+I have used transform: translateY method to animate labels when they are clicked.
+
+For this webpage, I utlizied vaniila css and html

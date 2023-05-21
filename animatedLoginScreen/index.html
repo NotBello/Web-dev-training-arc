@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login Screen Using HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="formBox">
+            <div class="formValue">
+                <form action="#" method="post" autocomplete="off">
+                    <h2>Login</h2>
+                    <div class="inputBox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" name="" id="eMsail" required>
+                        <label for="eMail">Email</label>
+                    </div>
+                    <div class="inputBox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="" id="pasword" required>
+                        <label for="pasword">Password</label>
+                    </div>
+                    <div class="forgot">
+                        <label for="rememberMe"><input type="checkbox" name="" id="rememberMe">Remember Me</label>
+                        <a class="frgot" href="#">Forgot your password?</a>
+                    </div>
+                    <button>Login</button>
+                    <div class="ifNotregister">
+                       <p>Don't have an account? <a class="registr" href="#">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
